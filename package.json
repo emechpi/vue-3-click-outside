@@ -1,8 +1,35 @@
 {
   "name": "vue-3-click-outside",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A vue-3 composable for handle the element outside click",
+  "homepage": "https://github.com/emechpi/vue-3-click-outside",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emechpi/vue-3-click-outside.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "click",
+    "click-outside",
+    "outside",
+    "composable",
+    "handle-click"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "MiladHp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miladhp/vue-3-click-outside/issues",
+    "email": "emechpi@gmail.com"
+  },
+  "email": "emechpi@gmail.com",
+  "contributors": [
+    "MiladHp <emechpi@gmail.com>"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,5 +38,19 @@
   "devDependencies": {
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "vue": "^3.3.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
   }
 }

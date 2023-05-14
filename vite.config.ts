@@ -6,7 +6,7 @@ module.exports = defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
       name: "@miladhp/vue-3-click-outside",
-      fileName: (format) => `index.${format}.cjs`,
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

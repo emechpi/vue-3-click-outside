@@ -1,7 +1,7 @@
 {
   "name": "@miladhp/vue-3-click-outside",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A vue-3 composable for handle the element outside click",
   "homepage": "https://github.com/emechpi/vue-3-click-outside",
   "repository": {

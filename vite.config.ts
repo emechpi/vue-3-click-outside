@@ -5,7 +5,7 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
-      name: "vue-3-click-outside",
+      name: "@miladhp/vue-3-click-outside",
       fileName: (format) => `index.${format}.cjs`,
     },
     rollupOptions: {

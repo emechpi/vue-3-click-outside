@@ -1,5 +1,5 @@
 {
-  "name": "vue-3-click-outside",
+  "name": "@miladhp/vue-3-click-outside",
   "private": false,
   "version": "1.0.0",
   "description": "A vue-3 composable for handle the element outside click",
